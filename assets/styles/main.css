@@ -61,7 +61,7 @@ main
   min-height: 70%;
   width: 500px;
   max-width: 90%;
-  background-color: hsl(var(--hue), 60%, 5%);
+  background-color: hsl(var(--hue), 60%, 15%);
   border-radius: 1rem;
   box-shadow: 0 0 10px 2px;
   background-image: url("../img/globe.svg");
