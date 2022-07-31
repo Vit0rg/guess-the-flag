@@ -1,0 +1,21 @@
+<svg version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -.024)">
+  <path d="m126 64a62 62 0 0 1-62 62 62 62 0 0 1-62-62 62 62 0 0 1 62-62 62 62 0 0 1 62 62z" fill="#808080" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".63"/>
+  <text transform="matrix(9.3 0 0 9.3 64 -25)" fill="#000000" font-family="Garuda" font-size="16px" stroke-width=".11" style="line-height:1.25;shape-inside:url(#rect294);white-space:pre" xml:space="preserve"/>
+  <g fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round">
+   <path d="m126 64a62 62 0 0 1-62 62 62 62 0 0 1-62-62 62 62 0 0 1 62-62 62 62 0 0 1 62 62z" stroke-width=".63"/>
+   <g stroke-width=".5">
+    <path d="m85 64a21 63 0 0 1-21 63 21 63 0 0 1-21-63 21 63 0 0 1 21-63 21 63 0 0 1 21 63z"/>
+    <path d="m107 64a43 63 0 0 1-43 63 43 63 0 0 1-43-63 43 63 0 0 1 43-63 43 63 0 0 1 43 63z"/>
+    <path d="m64 104a63 40 0 0 1-63-40 63 40 0 0 1 63-40 63 40 0 0 1 63 40 63 40 0 0 1-63 40z"/>
+   </g>
+   <path d="m64 83a63 19 0 0 1-63-19 63 19 0 0 1 63-19 63 19 0 0 1 63 19 63 19 0 0 1-63 19z" stroke-width=".5"/>
+   <path d="m64 117a63 53 0 0 1-63-53 63 53 0 0 1 63-53 63 53 0 0 1 63 53 63 53 0 0 1-63 53z" stroke-width=".5"/>
+   <path d="m11 64a53 63 0 0 1 53-63 53 63 0 0 1 53 63 53 63 0 0 1-53 63 53 63 0 0 1-53-63z" stroke-width=".5"/>
+   <path d="m95 64a31 63 0 0 1-31 63 31 63 0 0 1-31-63 31 63 0 0 1 31-63 31 63 0 0 1 31 63z" stroke-width=".5"/>
+   <path d="m64 94a63 30 0 0 1-63-30 63 30 0 0 1 63-30 63 30 0 0 1 63 30 63 30 0 0 1-63 30z" stroke-width=".5"/>
+   <path d="m64 73a63 9.2 0 0 1-63-9.2 63 9.2 0 0 1 63-9.2 63 9.2 0 0 1 63 9.2 63 9.2 0 0 1-63 9.2z" stroke-width=".5"/>
+   <path d="m54 64a9.6 63 0 0 1 9.6-63 9.6 63 0 0 1 9.6 63 9.6 63 0 0 1-9.6 63 9.6 63 0 0 1-9.6-63z" stroke-width=".5"/>
+  </g>
+ </g>
+</svg>

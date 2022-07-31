@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple and optimized game of guessing territories based on flags">
+    <meta name="theme-color" content="#222">
+    <title>Guess the flag</title>
+    <script defer src="./assets/script.js"></script>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="./assets/img/globe192.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./assets/img/globe192.png">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Guess the flag</h1>
+    </header>
+
+    <main>
+      <div id="question-container">
+        <img id="flag" src="./assets/img/globe144.png" alt="No hints :)" loading="lazy" class="hide">
+        <div id="answer-buttons" class="btn-grid hide">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+      </div>
+
+    </main>
+
+    <footer>
+      <a href="https://github.com/vit0rg">vit0rg</a>
+    </footer> 
+  </body>
+</html>
