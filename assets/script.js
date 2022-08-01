@@ -630,7 +630,7 @@ if (navigator.onLine)
   {
     if(isCorrect)
     {
-      flag.src = "../assets/img/globe_correct.svg";
+      flag.src = "./assets/img/globe_correct.svg";
       currentScore.innerHTML = `Score : ${++score}`;
       if(score > highestScore)
       {
@@ -641,7 +641,7 @@ if (navigator.onLine)
       return;
     }
     
-    flag.src = "../assets/img/globe_wrong.svg";
+    flag.src = "./assets/img/globe_wrong.svg";
     currentScore.innerHTML = `Score : ${--score}`;
   }
 
