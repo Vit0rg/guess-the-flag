@@ -67,6 +67,6 @@ self.addEventListener('activate', event =>
   console.log("Deleting old cache")
   event.waitUntil(
     self.caches.delete(cacheName),
-    //self.caches.delete("runtime-cache")
+    self.caches.delete("runtime-cache")
   )
 })
