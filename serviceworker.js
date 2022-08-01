@@ -7,6 +7,8 @@ const resourcesToPrecache =
   'assets/script.js',
   'assets/img/flag.svg',
   'assets/img/globe.svg',
+  'assets/img/globe_correct.svg',
+  'assets/img/globe_wrong.svg',
   'assets/img/globe32.svg',
   'assets/img/globe64.svg',
   'assets/img/globe128.svg',

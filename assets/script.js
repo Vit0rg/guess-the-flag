@@ -595,8 +595,11 @@ if (navigator.onLine)
     Array.from(answerButtonsElement.children).forEach((button) => 
     {
       setStatusClass(button, button.dataset.correct);
+      button.removeEventListener("click", selectAnswer);
     });
     
+    setScore(correct);
+
     nextButton.classList.remove("hide");
   }
   
@@ -613,6 +616,35 @@ if (navigator.onLine)
     }
   }
   
+  let score = 0;
+  let highestScore = 0;
+  const currentScore = document.getElementById("current-score");
+  const highScore = document.getElementById("high-score");
+  if(localStorage.getItem("highestScore"))
+  {
+    highScore.innerHTML = `Highscore : ${localStorage.getItem("highestScore")}`;
+    highestScore = localStorage.getItem("highestScore");
+  }
+
+  function setScore(isCorrect)
+  {
+    if(isCorrect)
+    {
+      flag.src = "../assets/img/globe_correct.svg";
+      currentScore.innerHTML = `Score : ${++score}`;
+      if(score > highestScore)
+      {
+        highestScore = score
+        localStorage.setItem("highestScore", score);
+        highScore.innerHTML = `Highscore : ${score}`;
+      }
+      return;
+    }
+    
+    flag.src = "../assets/img/globe_wrong.svg";
+    currentScore.innerHTML = `Score : ${--score}`;
+  }
+
   function clearStatusClass(element) 
   {
     element.classList.remove("correct");
@@ -628,6 +660,7 @@ if (navigator.onLine)
   {
     navigator.serviceWorker.register("../../serviceworker.js")
   }
+  
 }
 
 else

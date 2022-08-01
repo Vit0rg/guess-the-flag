@@ -19,21 +19,25 @@
     </header>
 
     <main>
+      <section id="points">
+        <span id="high-score">Highscore : 0</span>
+        <span id="current-score">Score : 0</span>
+      </section>
+
       <div id="question-container">
-        <img id="flag" src="./assets/img/globe144.png" alt="No hints :)" loading="lazy" class="hide">
+        <img id="flag" src="./assets/img/globe144.png" alt="No hints :)" class="hide">
         <div id="answer-buttons" class="btn-grid hide">
           <button class="btn">Answer 1</button>
           <button class="btn">Answer 2</button>
           <button class="btn">Answer 3</button>
           <button class="btn">Answer 4</button>
         </div>
-      </div>
 
-      <div class="controls">
-        <button id="start-btn" class="start-btn btn">Start</button>
-        <button id="next-btn" class="next-btn btn hide">Next</button>
+        <div class="controls">
+          <button id="start-btn" class="start-btn btn">Start</button>
+          <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
       </div>
-
     </main>
 
     <footer>
