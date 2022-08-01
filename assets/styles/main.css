@@ -40,10 +40,6 @@ header
 {
   background-color: hsl(0, 0%, 70%);
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   color: hsl(var(--hue), 100%, 15%);
   margin-bottom: auto;
 }
@@ -78,6 +74,7 @@ header
 h1
 {
   padding: .2rem 0;
+  text-align: center;
   font-size: 3.5rem;
 }
 
