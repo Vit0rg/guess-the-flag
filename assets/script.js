@@ -513,7 +513,7 @@ if (navigator.onLine)
     "zimbabwe",
   ];
   
-  const countriesAPI = "https://countryflagsapi.com/png"
+  const countriesAPI = "https://flags.pacremit.com/svg"
   const startButton = document.getElementById("start-btn");
   const nextButton = document.getElementById("next-btn");
   const flag = document.getElementById("flag");
